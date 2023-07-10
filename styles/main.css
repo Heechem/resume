@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
 :root {
   --mainTextColor-light: #000;
@@ -21,7 +21,7 @@
 }
 
 * {
-  font-family: "Readex Pro";
+  font-family: 'Readex Pro';
   box-sizing: border-box;
   line-height: 1.5rem;
   color: var(--mainTextColor);
@@ -78,6 +78,12 @@ img {
 #bio,
 a {
   font-weight: 300;
+}
+
+ul li:hover {
+  transform: translateY(-10%);
+
+  transition: all 0.2s ease-in;
 }
 
 #email {
